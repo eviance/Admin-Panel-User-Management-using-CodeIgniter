@@ -41,6 +41,17 @@ define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
 define('ROLE_ADMIN',                            '1');
 define('ROLE_MANAGER',                         	'2');
 define('ROLE_EMPLOYEE',                         '3');
+/*
+|
+|You can predefine a larger number of roles
+|That is why we add a couture to pay attention to the letter size
+| define('ROLE_WORK',                         '4');
+|in /application/views/includes/header.php example use $role === ROLE_WORK
+|definie in table tbl_roles insert roleId next id and text roles
+|
+|
+/*
+
 
 define('SEGMENT',								2);
 
